@@ -17,6 +17,7 @@ const Index = () => {
   };
   const onTrackerClick = () => {
     toast("Opening Tracker…", { description: "Redirecting to Tracker Section" });
+    window.open("https://web.mantracare.com/women-wellness", "_blank", "noopener,noreferrer");
   };
 
   return (
