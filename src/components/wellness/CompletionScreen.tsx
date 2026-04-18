@@ -14,7 +14,7 @@ export const CompletionScreen = ({ onDone, onTrackerClick }: CompletionScreenPro
 
       <div className="flex-1 overflow-y-auto px-6 pt-2 pb-6 animate-fade-in-up">
         <div className="flex justify-center">
-          <div className="h-24 w-24 rounded-full bg-primary-soft border border-primary-soft-border flex items-center justify-center text-5xl shadow-soft">
+          <div className="h-24 w-24 rounded-full bg-primary-soft border border-primary-soft-border flex items-center justify-center text-5xl shadow-soft animate-float">
             🌸
           </div>
         </div>
